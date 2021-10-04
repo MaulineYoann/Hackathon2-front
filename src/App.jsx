@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import WebTv from './pages/WebTv';
 import Team from './pages/Team';
@@ -12,7 +13,8 @@ import './App.css';
 function App() {
   return (
     <div className="App"> 
-      <Router>    
+      <Router>   
+        <Navbar /> 
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/web-tv" component={WebTv}/>
