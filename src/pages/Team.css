@@ -1,9 +1,14 @@
 .team-background  {
     display: flex;
     justify-content: center;
+    background-color: var(--third-color);
 }
 
 .team-title {
     display: flex;
     justify-content: center;
+    background-color: var(--fifth-color);
+    color: white;
+    padding: 1%;
+    font-size: 180%;
 }
