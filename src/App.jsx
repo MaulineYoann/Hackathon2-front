@@ -15,12 +15,12 @@ function App() {
       <Router>    
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route exact path="/" component={WebTv}/>
-        <Route exact path="/" component={Team}/>
-        <Route exact path="/" component={News}/>
-        <Route exact path="/" component={Staff}/>
-        <Route exact path="/" component={Project}/>
-        <Route exact path="/" component={Contact}/>
+        <Route path="/web-tv" component={WebTv}/>
+        <Route path="/team" component={Team}/>
+        <Route path="/news" component={News}/>
+        <Route path="/staff" component={Staff}/>
+        <Route path="/project" component={Project}/>
+        <Route path="/contact" component={Contact}/>
       </Switch>
       </Router> 
     </div>
