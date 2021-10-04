@@ -1,0 +1,27 @@
+.Home-container{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.text-container{
+   width: 100%;
+}
+
+.title-home{
+    text-align: center;
+    color:var(--third-color);
+    margin-bottom: 10%;
+}
+
+p{
+    font-size: 2em;
+    margin: 5%;
+}
+
+img{
+    width: 100vw;
+    height: 60vh;
+}
