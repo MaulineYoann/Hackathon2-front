@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="App">
       <Router>
+      < Navbar />
         <Switch>
-          < Navbar />
           <Route exact path="/" component={Home} />
           <Route path="/web-tv" component={WebTv} />
           <Route path="/team" component={Team} />
