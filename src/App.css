@@ -4,7 +4,6 @@
 * {
   margin: 0;
   padding:0;
-  background-color: var(--second-color);
 }
 
 :root{
@@ -24,6 +23,8 @@ h1{
 h2, h3, a, p{
   color: var(--third-color)
 }
+
+
 
 /* @font-face {
   font-family: 'Font';

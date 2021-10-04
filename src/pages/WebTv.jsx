@@ -8,10 +8,10 @@ function WebTv() {
         <div>
             <img id="logo" src={Image} alt="Logo" />
             <div className="webtv-title">
-            <h1>NOTRE WEB TV</h1>
+            <h1 className="title">NOTRE WEB TV</h1>
             </div>
             <div className="twitch-container">
-            <ReactTwitchEmbedVideo channel="talk2megooseman" />
+            <ReactTwitchEmbedVideo channel="talk2megooseman" width='100%'/>
             </div>
         </div>
     )
