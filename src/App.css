@@ -1,4 +1,39 @@
+<<<<<<< HEAD
+=======
+/* @import './Font/IronstrikeBold.woff';
+@import './Font/IronstrikeLight.woff'; */
+
+>>>>>>> 2edcb5297eeb97d52538ecda380295e0d1ccd4e0
 * {
   margin: 0;
   padding:0;
 }
+<<<<<<< HEAD
+=======
+
+:root{
+  --main-color:#5E2D5F;
+  --second-color:#FBB03B;
+  --third-color:#818181;
+  --fourth-color:#2F3338;
+  --fifth-color:#702972;
+  --sixth-color:#8E3524;
+}
+
+h1{
+  color:#FFFFFF;
+}
+
+h2, h3, a, p{
+  color: var(--third-color)
+}
+
+
+
+/* @font-face {
+  font-family: 'Font';
+  font-family: 'FontLight';
+  src: local('Font'), url(Font/IronstrikeBold.woff) format('woff');
+  src: local('FontLight'), url(Font/IronstrikeLight.woff) format('woff');
+} */
+>>>>>>> 2edcb5297eeb97d52538ecda380295e0d1ccd4e0
