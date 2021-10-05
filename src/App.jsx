@@ -12,19 +12,19 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App"> 
-      <Router>   
-        <Navbar /> 
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route path="/web-tv" component={WebTv}/>
-        <Route path="/team" component={Team}/>
-        <Route path="/news" component={News}/>
-        <Route path="/staff" component={Staff}/>
-        <Route path="/project" component={Project}/>
-        <Route path="/contact" component={Contact}/>
-      </Switch>
-      </Router> 
+    <div className="App">
+      <Router>
+      < Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/web-tv" component={WebTv} />
+          <Route path="/team" component={Team} />
+          <Route path="/news" component={News} />
+          <Route path="/staff" component={Staff} />
+          <Route path="/project" component={Project} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </Router>
     </div>
   );
 }
