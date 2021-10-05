@@ -1,0 +1,25 @@
+.Footer {
+    background-color: var(--fifth-color);
+    width: 100%;
+}
+
+.footer-container {
+    align-items: center;
+}
+
+.footer-logo {
+    width: 12%;
+}
+
+.footer-text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mention-footer {
+    font-size: 120%;
+    color: black;
+    margin-bottom: 1%;
+}

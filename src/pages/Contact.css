@@ -1,0 +1,65 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-top: 8%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 64vh;
+}
+
+.text {
+  margin: 20px;
+  font-size: 1.5vh;
+}
+
+.contact-form {
+  font-size: 1.2vh;
+  color: var(--fourth-color);
+  text-align: left;
+  margin-bottom: 2%;
+}
+
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 2%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.request {
+  padding-bottom: 50px;
+}
+
+input {
+  padding: 2%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: var(--third-color);
+}
+
+.container {
+  padding: 2%;
+}
+
+.link-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.submit {
+  background-color: var(--second-color);
+}
+
+.home-contact {
+  display: flex;
+  justify-content: center;
+}

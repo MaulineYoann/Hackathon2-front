@@ -1,5 +1,5 @@
-/* @import './Font/IronstrikeBold.woff';
-@import './Font/IronstrikeLight.woff'; */
+/* @import './font/IronstrikeBold.woff';
+@import './font/IronstrikeLight.woff'; */
 
 * {
   margin: 0;
@@ -17,6 +17,7 @@
 
 h1{
   color:#FFFFFF;
+  font-size: 3em;
 }
 
 h2, h3, a, p{
@@ -28,6 +29,6 @@ h2, h3, a, p{
 /* @font-face {
   font-family: 'Font';
   font-family: 'FontLight';
-  src: local('Font'), url(Font/IronstrikeBold.woff) format('woff');
+  src: local('Font'), url(font/IronstrikeBold.woff) format('woff');
   src: local('FontLight'), url(Font/IronstrikeLight.woff) format('woff');
 } */
