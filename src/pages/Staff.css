@@ -1,0 +1,14 @@
+.Staff {
+  margin: 0 15%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: center;
+  overflow: hidden;
+}
+.staff-title {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    margin: 50px;
+}

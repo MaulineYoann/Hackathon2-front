@@ -1,0 +1,42 @@
+.staffUser {
+  margin: 30px 0;
+}
+.staff {
+  border: 1px solid var(--main-color);
+  box-shadow: 10px 10px 10px var(--main-color);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  padding: 15px;
+  font-family: sans-serif;
+  background-image: linear-gradient(
+    to right bottom,
+    #5e2d5f,
+    #6e2958,
+    #7b274e,
+    #852743,
+    #8b2b36,
+    #983633,
+    #a4432f,
+    #ad512a,
+    #c3672e,
+    #d77e32,
+    #ea9736,
+    #fbb03b
+  );
+  perspective: 1000px;
+}
+.staff:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  /* transform: scale(1.1); */
+}
+.user-propriety {
+  color: black;
+  margin: 5px 0;
+  font-family: sans-serif;
+}
