@@ -29,7 +29,7 @@ function Navbar() {
                     <a href="/#" className="navbar_link">Association</a>
                     <div className="subnav-content">
                         <li className="navbar_item slideInDown">
-                            <a href="/news" className="submenu_link">Actualités</a>
+                            <a href="/news" className="submenu_link">À Propos</a>
                         </li>
                         <li className="navbar_item slideInDown">
                             <a href="/staff" className="submenu_link">Staff</a>
