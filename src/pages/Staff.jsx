@@ -4,7 +4,6 @@ import './Staff.css';
 function Staff() {
     return (
         <div>
-            
         </div>
     )
 }
