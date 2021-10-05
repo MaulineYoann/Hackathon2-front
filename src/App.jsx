@@ -10,8 +10,8 @@ import TeamList from './pages/Team/TeamList';
 import Footer from './components/Footer';
 import './App.css';
 
-
 function App() {
+
   return (
     <div className="App">
       <Router>
