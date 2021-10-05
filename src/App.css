@@ -12,7 +12,7 @@
   --third-color:#818181;
   --fourth-color:#2F3338;
   --fifth-color:#702972;
-  --sixth-color:#8E3524;
+  --sixth-color:#818181;
 }
 
 h1{
@@ -23,6 +23,8 @@ h1{
 h2, h3, a, p{
   color: var(--third-color)
 }
+
+
 
 
 

@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Team from './Team';
 import axios from 'axios';
 import logo from '../../assets/Hearthstone.png';
-import './TeamList';
+import './TeamList.css';
+import { FaHome } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function TeamList() {
   const [teams, setTeams] = useState([]);
@@ -13,6 +15,11 @@ function TeamList() {
       .then((res) => res.data)
       .then((data) => setTeams(data));
   }, []);
+
+  let iconStyles = {
+    color: '#FBB03B',
+    fontSize: '2em',
+  };
 
   return (
     <div className="Teams">
@@ -33,6 +40,9 @@ function TeamList() {
             <Team team={team} />
           </div>
         ))}
+      </div>
+      <div className="home-player">
+      <Link to={{pathname:'/'}}>< FaHome style={iconStyles}/></Link>
       </div>
     </div>
   );

@@ -15,9 +15,9 @@
 }
 
 .contact-form {
-  font-size: 1.2vh;
+  font-size: 1.8vh;
   color: var(--fourth-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 2%;
 }
 
@@ -32,18 +32,15 @@ textarea {
   margin-bottom: 10px;
 }
 
-.request {
-  padding-bottom: 50px;
-}
-
 input {
   padding: 2%;
   border-radius: 4px;
   cursor: pointer;
 }
 
-input[type='submit']:hover {
+.send:hover {
   background-color: var(--third-color);
+  border: 1px solid var(--third-color);
 }
 
 .container {
@@ -55,11 +52,24 @@ input[type='submit']:hover {
   justify-content: center;
 }
 
-.submit {
+.send {
   background-color: var(--second-color);
+  font-size: 100%;
+  width: 100%;
+  padding: 1.7%;
+  border: 1px solid var(--second-color);
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 2%;
 }
 
 .home-contact {
   display: flex;
   justify-content: center;
+}
+
+.submit {
+  height: 80px;
+  text-align: left;
 }

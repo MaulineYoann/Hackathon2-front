@@ -5,10 +5,7 @@ import { FaTwitter } from 'react-icons/fa';
 
 function Team({ team }) {
   let iconStyles = {
-    color: '#FFFFFF',
-    backgroundColor: '#702972',
-    border: '2px solid ',
-    borderRadius: '50%',
+    color: '#FBB03B',
     fontSize: '2em',
   };
   return (
